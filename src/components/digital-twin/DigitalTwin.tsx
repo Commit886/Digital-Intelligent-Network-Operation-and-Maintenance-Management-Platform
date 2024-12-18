@@ -7,7 +7,7 @@ import { DeviceStatus } from './DeviceStatus';
 export function DigitalTwin() {
   return (
     <div className="bg-white rounded-lg shadow p-6">
-      <h2 className="text-lg font-medium text-gray-900 mb-4">数据中心数字孪生</h2>
+      <h2 className="text-lg font-medium text-gray-900 mb-4">数据中心可视化界面</h2>
       <div className="h-[500px] relative">
         <Canvas shadows>
           <Suspense fallback={null}>
